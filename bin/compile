@@ -41,7 +41,7 @@ rm v0.6.0.tar.gz
 
 # libevent
 
-wget https://github.com/downloads/libevent/libevent/libevent-2.0.21-stable.tar.gz
+curl -O https://github.com/downloads/libevent/libevent/libevent-2.0.21-stable.tar.gz
 tar xzf libevent-2.0.21-stable.tar.gz
 cd libevent-2.0.21-stable
 ./configure --prefix=$BUILD_PATH
